@@ -1,0 +1,37 @@
+[中文]
+标题：北美读博第一年感悟
+日期：2025年2月20日 · 艾姆斯，爱荷华
+文件名：北美读博第一年感悟
+摘要：焦虑是因为白天干得少，晚上睡得晚；
+正文：
+焦虑是因为白天干得少，晚上睡得晚；
+
+超前消费不是好习惯；
+
+受挫是正常的，因为正在越过人类边界;
+
+华人圈里谨慎说话;
+
+居家办公效率也可以很高，注意是“也可以”；
+
+失败是正常的，成功是不常见的;
+
+Course是60分万岁，多一分是浪费；（本科不适用）
+
+先做出来再迭代，即使初稿是一坨垃圾;
+
+文章不是慢慢写的，是突然某一天可完成90%，剩下一个月完成10%;
+
+人脉比钱重要，花钱换人脉的机会不要犹豫，钱够吃饭住房养车旅行谈对象就行，钱没了可以再赚。
+
+
+[English]
+Title: Write the English title here
+Date: June 8, 2026 · Ames, Iowa
+Summary: Write the English summary here. It will appear on the journal index page.
+Body:
+Write the first English paragraph here. Leave a blank line between paragraphs.
+
+Write the second English paragraph here. The script will turn each paragraph into an HTML paragraph.
+
+Write the third English paragraph here. After editing this file, run the script to generate a new journal page.

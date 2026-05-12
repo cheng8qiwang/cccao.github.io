@@ -1,64 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>Your Name</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>曹程驰 | Chengchi Cao</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-cn">曹程驰</span>
+        <span class="brand-en">Chengchi Cao</span>
+      </a>
+      <nav class="site-nav">
+        <a href="index.html" class="is-active" data-i18n="navHome" data-zh="首页" data-en="Home">首页</a>
+        <a href="about.html" data-i18n="navAbout" data-zh="简介" data-en="About">简介</a>
+        <a href="journal.html" data-i18n="navJournal" data-zh="随笔" data-en="Journal">随笔</a>
+        <a href="photography.html" data-i18n="navPhotography" data-zh="摄影" data-en="Photography">摄影</a>
+        <a href="research.html" data-i18n="navResearch" data-zh="研究" data-en="Research">研究</a>
+        <a href="contact.html" data-i18n="navContact" data-zh="联系" data-en="Contact">联系</a>
+      </nav>
+      <button class="lang-toggle" id="lang-toggle" type="button" aria-label="切换语言">EN</button>
+    </header>
 
-  <header>
-    <h1>Your Name</h1>
-    <p>PhD Student in Materials Science and Engineering</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="#photography">Photography</a>
-      <a href="#blog">Blog</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <main class="page">
+      <section class="hero-card">
+        <p class="eyebrow" data-i18n="heroTagline" data-zh="生活 · 摄影 · 研究" data-en="Life · Photography · Research">生活 · 摄影 · 研究</p>
+        <h1>Chengchi Cao</h1>
+        <p class="name-cn" data-i18n="heroNameCn" data-zh="曹程驰" data-en="Cao Chengchi">曹程驰</p>
+        <p
+          class="intro"
+          data-i18n="heroIntro"
+          data-zh="爱荷华州立大学博士生。我希望把研究、摄影、日常生活和一路上的思考，都慢慢整理成一个长期更新的个人网站。"
+          data-en="Ph.D. student at Iowa State University. I hope to gradually turn my research, photography, daily life, and reflections into a personal website that grows over time."
+        >
+          爱荷华州立大学博士生。我希望把研究、摄影、日常生活和一路上的思考，都慢慢整理成一个长期更新的个人网站。
+        </p>
+        <div class="hero-actions">
+          <a class="button-primary" href="about.html" data-i18n="heroActionAbout" data-zh="查看简介" data-en="View About">查看简介</a>
+          <a class="button-secondary" href="journal.html" data-i18n="heroActionJournal" data-zh="进入随笔" data-en="Open Journal">进入随笔</a>
+        </div>
+      </section>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am a PhD student in Materials Science and Engineering at Iowa State University.
-      My research focuses on molecular dynamics simulations, semiconductor materials,
-      and photoplasticity.
-    </p>
-  </section>
+      <section class="section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker" data-i18n="homeAboutKicker" data-zh="ABOUT" data-en="ABOUT">ABOUT</p>
+            <h2 data-i18n="homeAboutTitle" data-zh="简介摘要" data-en="About Snapshot">简介摘要</h2>
+          </div>
+          <a class="section-link" href="about.html" data-i18n="viewMore" data-zh="查看更多" data-en="View More">查看更多</a>
+        </div>
+        <div class="card-grid three-up">
+          <article class="info-card">
+            <span class="label" data-i18n="profileRoleLabel" data-zh="身份" data-en="Role">身份</span>
+            <p data-i18n="profileRoleValue" data-zh="爱荷华州立大学博士生" data-en="Ph.D. Student at Iowa State University">爱荷华州立大学博士生</p>
+          </article>
+          <article class="info-card">
+            <span class="label" data-i18n="profileFieldLabel" data-zh="研究方向" data-en="Research Area">研究方向</span>
+            <p data-i18n="profileFieldValue" data-zh="计算材料科学、分子动力学" data-en="Computational materials science and molecular dynamics">计算材料科学、分子动力学</p>
+          </article>
+          <article class="info-card">
+            <span class="label" data-i18n="profileInterestLabel" data-zh="兴趣" data-en="Interests">兴趣</span>
+            <p data-i18n="profileInterestValue" data-zh="摄影、旅行、汽车、记录生活" data-en="Photography, travel, cars, and documenting daily life">摄影、旅行、汽车、记录生活</p>
+          </article>
+        </div>
+      </section>
 
-  <section id="research">
-    <h2>Research</h2>
-    <p>
-      My current work explores how illumination affects deformation mechanisms in
-      semiconductor materials such as ZnS and GaP.
-    </p>
-  </section>
+      <section class="section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker" data-i18n="homeJournalKicker" data-zh="JOURNAL" data-en="JOURNAL">JOURNAL</p>
+            <h2 data-i18n="homeJournalTitle" data-zh="最新随笔" data-en="Latest Journal">最新随笔</h2>
+          </div>
+          <a class="section-link" href="journal.html" data-i18n="goJournal" data-zh="进入随笔页" data-en="Go to Journal">进入随笔页</a>
+        </div>
+                                                        <article class="feature-entry">
+          <p class="journal-meta" data-i18n="journalMetaLatest" data-zh="2026年5月11日 · 艾姆斯，爱荷华" data-en="June 8, 2026 · Ames, Iowa">2026年5月11日 · 艾姆斯，爱荷华</p>
+          <h3 data-i18n="journalEntryTitleLatest" data-zh="一个关于被人追杀的梦" data-en="Write the English title here">一个关于被人追杀的梦</h3>
+          <p
+            data-i18n="journalExcerptLatest"
+            data-zh="梦的大概内容是这样的：我好像去参加了一个什么会议，有一些熟人但是也认识了一些新朋友。"
+            data-en="Write the English summary here. It will appear on the journal index page."
+          >
+            梦的大概内容是这样的：我好像去参加了一个什么会议，有一些熟人但是也认识了一些新朋友。
+          </p>
+          <a class="text-link" href="journal/A_nightmare_1.html" data-i18n="readPost" data-zh="阅读全文" data-en="Read Full Post">阅读全文</a>
+        </article>
+      </section>
 
-  <section id="publications">
-    <h2>Publications</h2>
-    <ul>
-      <li>Your paper title, Journal, Year.</li>
-      <li>Your review article, Journal, Year.</li>
-    </ul>
-  </section>
+      <section class="section">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker" data-i18n="homeExploreKicker" data-zh="EXPLORE" data-en="EXPLORE">EXPLORE</p>
+            <h2 data-i18n="homeExploreTitle" data-zh="继续浏览" data-en="Explore More">继续浏览</h2>
+          </div>
+        </div>
+        <div class="card-grid">
+          <a class="nav-card" href="photography.html">
+            <span class="label" data-i18n="navPhotography" data-zh="摄影" data-en="Photography">摄影</span>
+            <h3 data-i18n="photoCardTitle" data-zh="作品与相册" data-en="Albums and Projects">作品与相册</h3>
+            <p data-i18n="photoCardBody" data-zh="以后可以按旅行、校园、汽车、日常等分类继续扩展。" data-en="This can later grow into categories like travel, campus, cars, and everyday moments.">以后可以按旅行、校园、汽车、日常等分类继续扩展。</p>
+          </a>
+          <a class="nav-card" href="research.html">
+            <span class="label" data-i18n="navResearch" data-zh="研究" data-en="Research">研究</span>
+            <h3 data-i18n="researchCardTitle" data-zh="方向、项目与成果" data-en="Topics, Projects, and Outputs">方向、项目与成果</h3>
+            <p data-i18n="researchCardBody" data-zh="这里适合以后逐步加入研究摘要、项目经历、论文和海报。" data-en="This page is a good place to gradually add research summaries, projects, papers, and posters.">这里适合以后逐步加入研究摘要、项目经历、论文和海报。</p>
+          </a>
+          <a class="nav-card" href="contact.html">
+            <span class="label" data-i18n="navContact" data-zh="联系" data-en="Contact">联系</span>
+            <h3 data-i18n="contactCardTitle" data-zh="邮箱与链接" data-en="Email and Links">邮箱与链接</h3>
+            <p data-i18n="contactCardBody" data-zh="保留最直接的联系方式，也可以后面继续加入简历或社交平台。" data-en="Keep your direct contact information here and later add a resume link or social profiles.">保留最直接的联系方式，也可以后面继续加入简历或社交平台。</p>
+          </a>
+        </div>
+      </section>
+    </main>
 
-  <section id="photography">
-    <h2>Photography</h2>
-    <p>Travel, campus life, nature, and daily moments.</p>
-  </section>
-
-  <section id="blog">
-    <h2>Blog</h2>
-    <p>Coming soon.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your.email@iastate.edu</p>
-  </section>
-
+    <footer class="site-footer">© 2026 Chengchi Cao</footer>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
